@@ -1,0 +1,240 @@
+/* ----------------------
+Utility
+------------------------- */
+:root{
+    --bg-color: #FFF4E7;
+    --primary-font: 'Work Sans';
+    --primary-button-bg: #FF900E;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* -------------------------------------------
+---------------Nav Container------------------ */
+header{
+    background-color: var(--bg-color);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 18px;
+    
+    
+}
+.nav-title{
+    font-size: 30px;
+    
+}
+.nav-details ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+   
+    
+}
+/* -----------------------
+-----------Cover---------- */
+
+.banner-details {
+    width: 862px;
+    margin: auto;
+    text-align: center;
+}
+.cover-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.cover-title, .description, .button{
+    margin-bottom: 40px;
+}
+
+.button{
+    background-color: var(--primary-button-bg);
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.cover-image img{
+    display: block;
+    width: 1440px;
+    height: 700px;
+    margin: auto;
+    padding-bottom: 45px;
+    
+}
+/* ----------------------Features container------------------------- */
+
+.features-container{
+    display: flex;
+    gap: 70px;
+    margin: 70px auto;
+    width: 60%;
+    
+    
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: auto;
+    
+    
+    
+    
+    
+    
+}
+.images img{
+    width: 342px;
+    height: 342px;
+    gap: 24px;
+}
+
+
+.features-list{
+    margin: auto;
+    width: 50%;
+    
+    
+   
+       
+
+}
+.list-title{
+    font-size: 45px;
+
+}
+.list-title-color1{
+    color: #727272;;
+}
+.list-title-color2{
+    color: #FF900E;
+}
+.list-description{
+    font-size: 16px;
+    margin: 15px 0px;
+}
+/* ------------------------------------more-features-------------------------- */
+.more-features{
+    display: flex;
+    gap: 50px;
+    width: 80%;
+    margin: 130px auto;
+       
+}
+.text-container{
+    display:grid;
+    width: 50%;
+}
+.text-container-main-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.text-container-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.text-container-details{
+    font-weight: 400;
+    font-size: 16px;
+}
+.box{
+    padding: 40px 40px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.girl-image{
+    width: 800px;
+    height: 1059px;
+    
+}
+.btn{
+    display: block;
+    margin: auto;
+    
+    background-color: var(--primary-button-bg);
+    color: white;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 45px;
+}
+
+/* -----------------------------Some facts------------------------------ */
+
+.some-facts-container{
+    width: 80%;
+    margin: 130px auto;
+}
+.some-facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.some-facts-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 40px auto;
+    padding-bottom: 100px;
+}
+.facts-lists{
+    display: flex;
+    gap: 137px;
+    justify-content: center;
+    
+    
+    
+}
+
+.ribon, .projects, .customers, .email {
+    border: 1px solid #FF900E;
+    padding: 40px;
+    width: 240px;
+    height: 240px;
+    
+
+}
+/* our sponsors------------------------------------
+------------------------------- */
+.our-sponsors-details{
+    width: 80%;
+    height: auto;
+    margin: 80px auto;
+    text-align: center;
+}
+.our-sponsors-heading-title, .our-sponsors-heading-description{
+    margin-bottom: 40px;
+}
+.our-sponsors-heading-title{
+    font-size: 45px;
+}
+.our-sponsors-heading-description{
+    font-weight: 400;
+    font-size: 16px;
+}
+.our-sponsors-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+/* ------------Footer------------ */
+.footer{
+    width: 80%;
+    margin: 80px auto;
+    padding: 30px 0px;
+    text-align: center;
+    background-color: var(--bg-color);
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;;
+}
