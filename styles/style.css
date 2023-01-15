@@ -160,6 +160,7 @@ header{
 .btn{
     display: block;
     margin: auto;
+    margin-top: -250px;
     
     background-color: var(--primary-button-bg);
     color: white;
@@ -241,12 +242,12 @@ header{
 }
 /* ----------------------Media Query------------------- */
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 576px) {
     /* .nav-container{
         width: 100%;
     } */
     .nav-container, .nav-details ul{
-        
+        background-color: aqua;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
@@ -296,10 +297,13 @@ header{
         margin: auto;
         padding: 10px;
     }
-    .girl-image{
+    .girl img{
         width: 100%;
         height: 100%;
-        
+    }
+    .btn{
+        margin-top: -250px;
+        overflow: visible;
     }
     .some-facts-container{
         width: 100%;
