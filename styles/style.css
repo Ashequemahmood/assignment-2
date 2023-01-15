@@ -43,6 +43,7 @@ header{
 .cover-title{
     font-weight: 700;
     font-size: 64px;
+    padding-top: 100px;
 }
 .cover-title, .description, .button{
     margin-bottom: 40px;
